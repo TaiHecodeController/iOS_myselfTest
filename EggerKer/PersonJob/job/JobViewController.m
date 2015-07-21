@@ -7,6 +7,7 @@
 //
 
 #import "JobViewController.h"
+#import "JobListView.h"
 
 @interface JobViewController ()
 {
@@ -43,7 +44,12 @@
     
     self.JobScrollView.contentSize = CGSizeMake(640, self.JobScrollView.frame.size.height);
     
+    JobListView * jobView = [[JobListView alloc] initWithFrame:CGRectMake(self.JobScrollView.frame.size.width, 0, self.JobScrollView.frame.size.width, self.JobScrollView.frame.size.height)];
+    [self.JobScrollView addSubview:jobView];
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

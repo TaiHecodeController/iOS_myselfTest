@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< Updated upstream
 	<string>A7E5DBA8-DF41-46A6-972C-85E4DE13B854</string>
+=======
+	<string>72C01EBB-B7EF-440B-88B0-A1F19D1A558E</string>
+>>>>>>> Stashed changes
 	<key>IDESourceControlProjectName</key>
 	<string>EggerKer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>

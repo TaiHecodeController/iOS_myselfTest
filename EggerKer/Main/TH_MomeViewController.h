@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TH_MomeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *searchjob;
+@property (weak, nonatomic) IBOutlet UIButton *recruitment;
 
 @end

@@ -7,8 +7,7 @@
 //
 
 #import "TH_MomeViewController.h"
-#import "TH_BusinessViewController.h"
-#import "TH_PersonViewController.h"
+#import "LoginViewController.h"
 @interface TH_MomeViewController ()
 
 @end
@@ -18,14 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   self.title = @"EggerKer";
+   self.searchjob.layer.cornerRadius = 3;
+//    self.searchjob.layer.borderWidth = 5;
+    self.searchjob.layer.masksToBounds = YES;
+    self.recruitment.layer.cornerRadius = 3;
+    self.recruitment.layer.masksToBounds = YES;
+    
+//   self.title = @"EggerKer";
     self.view.backgroundColor = [UIColor whiteColor];
     
     // Do any additional setup after loading the view from its nib.
 }
 - (IBAction)personJobClick:(id)sender {
     
-    TH_BusinessViewController * business = [[TH_BusinessViewController alloc] init];
+    LoginViewController * business = [[LoginViewController alloc] init];
     
     [self.navigationController pushViewController:business animated:YES];
 
@@ -33,7 +38,7 @@
 }
 - (IBAction)Bussiness:(id)sender {
     
-    TH_PersonViewController * person = [[TH_PersonViewController alloc] init];
+    LoginViewController * person = [[LoginViewController alloc] init];
     
     [self.navigationController pushViewController:person animated:YES];
     

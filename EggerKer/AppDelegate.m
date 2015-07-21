@@ -29,7 +29,7 @@
     UINavigationBar *bar = [UINavigationBar appearance];
     [bar setBarTintColor:[UIColor colorWithRed:235/255.0 green:67/255.0 blue:67/255.0 alpha:1]];
     bar.translucent = NO;
-    [bar setTintColor:[UIColor whiteColor]];
+[bar setTintColor:[UIColor whiteColor]];
     sleep(1);    // Override point for customization after application launch.
     return YES;
 }

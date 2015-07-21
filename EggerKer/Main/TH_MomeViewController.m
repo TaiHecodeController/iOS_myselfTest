@@ -1,0 +1,58 @@
+//
+//  TH_MomeViewController.m
+//  EggerKer
+//
+//  Created by 李李贤军 on 15/7/20.
+//  Copyright (c) 2015年 TH. All rights reserved.
+//
+
+#import "TH_MomeViewController.h"
+#import "TH_BusinessViewController.h"
+#import "TH_PersonViewController.h"
+@interface TH_MomeViewController ()
+
+@end
+
+@implementation TH_MomeViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+   self.title = @"EggerKer";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    // Do any additional setup after loading the view from its nib.
+}
+- (IBAction)personJobClick:(id)sender {
+    
+    TH_BusinessViewController * business = [[TH_BusinessViewController alloc] init];
+    
+    [self.navigationController pushViewController:business animated:YES];
+
+    
+}
+- (IBAction)Bussiness:(id)sender {
+    
+    TH_PersonViewController * person = [[TH_PersonViewController alloc] init];
+    
+    [self.navigationController pushViewController:person animated:YES];
+    
+
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

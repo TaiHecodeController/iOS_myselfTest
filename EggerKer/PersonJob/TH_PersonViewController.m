@@ -7,7 +7,7 @@
 //
 
 #import "TH_PersonViewController.h"
-#import "PushJobViewController.h"
+#import "MapViewController.h"
 #import "JobViewController.h"
 #import "MyselfViewController.h"
 @interface TH_PersonViewController ()
@@ -24,7 +24,7 @@
     JobViewController *home = [[JobViewController alloc] init];
     [self addSubViewControl:home title:@"职位" image:@"tabbar_home" selectedImage:@"tabbar_home_highlighted"];
     
-    PushJobViewController *message = [[PushJobViewController alloc] init];
+    MapViewController *message = [[MapViewController alloc] init];
     [self addSubViewControl:message title:@"地图" image:@"tabbar_course" selectedImage:@"tabbar_course_highlighted"];
     
     

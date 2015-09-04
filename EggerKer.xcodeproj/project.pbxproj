@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042F077D1B5E99E80046FD8E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F077B1B5E99E80046FD8E /* LoginViewController.m */; };
+		042F077E1B5E99E80046FD8E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042F077C1B5E99E80046FD8E /* LoginViewController.xib */; };
+		042F07801B5E9A5D0046FD8E /* JobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042F077F1B5E9A5D0046FD8E /* JobViewController.xib */; };
+		042F07921B5EA7400046FD8E /* JobListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F078E1B5EA7400046FD8E /* JobListCell.m */; };
+		042F07931B5EA7400046FD8E /* JobListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042F078F1B5EA7400046FD8E /* JobListCell.xib */; };
+		042F07941B5EA7400046FD8E /* JobListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F07911B5EA7400046FD8E /* JobListView.m */; };
+		042F07961B5EAAAA0046FD8E /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042F07951B5EAAAA0046FD8E /* BaiduMapAPI.framework */; };
+		042F07981B5EAB9B0046FD8E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042F07971B5EAB9B0046FD8E /* CoreLocation.framework */; };
+		042F079A1B5EABA20046FD8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042F07991B5EABA20046FD8E /* QuartzCore.framework */; };
+		042F079C1B5EABB10046FD8E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042F079B1B5EABB10046FD8E /* OpenGLES.framework */; };
+		042F079E1B5EABC10046FD8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042F079D1B5EABC10046FD8E /* SystemConfiguration.framework */; };
+		042F07A01B5EABCC0046FD8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042F079F1B5EABCC0046FD8E /* CoreGraphics.framework */; };
+		042F07A21B5EABD70046FD8E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042F07A11B5EABD70046FD8E /* Security.framework */; };
+		042F07A41B5EACAB0046FD8E /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 042F07A31B5EACAB0046FD8E /* mapapi.bundle */; };
+		042F07A71B5EB51B0046FD8E /* BasicMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F07A61B5EB51B0046FD8E /* BasicMapAnnotation.m */; };
 		9433BE431B5DE1EC009462AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433BE421B5DE1EC009462AE /* main.m */; };
-		9433BE461B5DE1EC009462AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433BE451B5DE1EC009462AE /* AppDelegate.m */; };
+		9433BE461B5DE1EC009462AE /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9433BE451B5DE1EC009462AE /* AppDelegate.mm */; };
 		9433BE491B5DE1EC009462AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433BE481B5DE1EC009462AE /* ViewController.m */; };
 		9433BE4C1B5DE1EC009462AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9433BE4A1B5DE1EC009462AE /* Main.storyboard */; };
 		9433BE4E1B5DE1EC009462AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9433BE4D1B5DE1EC009462AE /* Images.xcassets */; };
@@ -45,11 +60,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042F077A1B5E99E80046FD8E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../../../../../.Trash/LoginViewController.h; sourceTree = "<group>"; };
+		042F077B1B5E99E80046FD8E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../../../../../.Trash/LoginViewController.m; sourceTree = "<group>"; };
+		042F077C1B5E99E80046FD8E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../../../../../.Trash/LoginViewController.xib; sourceTree = "<group>"; };
+		042F077F1B5E9A5D0046FD8E /* JobViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobViewController.xib; path = EggerKer/PersonJob/job/JobViewController.xib; sourceTree = SOURCE_ROOT; };
+		042F078D1B5EA7400046FD8E /* JobListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobListCell.h; sourceTree = "<group>"; };
+		042F078E1B5EA7400046FD8E /* JobListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobListCell.m; sourceTree = "<group>"; };
+		042F078F1B5EA7400046FD8E /* JobListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobListCell.xib; sourceTree = "<group>"; };
+		042F07901B5EA7400046FD8E /* JobListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobListView.h; sourceTree = "<group>"; };
+		042F07911B5EA7400046FD8E /* JobListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobListView.m; sourceTree = "<group>"; };
+		042F07951B5EAAAA0046FD8E /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
+		042F07971B5EAB9B0046FD8E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		042F07991B5EABA20046FD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		042F079B1B5EABB10046FD8E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		042F079D1B5EABC10046FD8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		042F079F1B5EABCC0046FD8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		042F07A11B5EABD70046FD8E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		042F07A31B5EACAB0046FD8E /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = "../BaiduMap_IOSSDK_v2/BaiduMap_IOSSDK_v2.8.0_Lib/Release-iphoneos/BaiduMapAPI.framework/Resources/mapapi.bundle"; sourceTree = "<group>"; };
+		042F07A51B5EB51B0046FD8E /* BasicMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMapAnnotation.h; sourceTree = "<group>"; };
+		042F07A61B5EB51B0046FD8E /* BasicMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMapAnnotation.m; sourceTree = "<group>"; };
 		9433BE3D1B5DE1EC009462AE /* EggerKer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggerKer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9433BE411B5DE1EC009462AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9433BE421B5DE1EC009462AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9433BE441B5DE1EC009462AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9433BE451B5DE1EC009462AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9433BE451B5DE1EC009462AE /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		9433BE471B5DE1EC009462AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9433BE481B5DE1EC009462AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9433BE4B1B5DE1EC009462AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +134,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042F07A21B5EABD70046FD8E /* Security.framework in Frameworks */,
+				042F07A01B5EABCC0046FD8E /* CoreGraphics.framework in Frameworks */,
+				042F079E1B5EABC10046FD8E /* SystemConfiguration.framework in Frameworks */,
+				042F079C1B5EABB10046FD8E /* OpenGLES.framework in Frameworks */,
+				042F079A1B5EABA20046FD8E /* QuartzCore.framework in Frameworks */,
+				042F07981B5EAB9B0046FD8E /* CoreLocation.framework in Frameworks */,
+				042F07961B5EAAAA0046FD8E /* BaiduMapAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,9 +154,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042F07791B5E99D80046FD8E /* login */ = {
+			isa = PBXGroup;
+			children = (
+				042F077A1B5E99E80046FD8E /* LoginViewController.h */,
+				042F077B1B5E99E80046FD8E /* LoginViewController.m */,
+				042F077C1B5E99E80046FD8E /* LoginViewController.xib */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 		9433BE341B5DE1EC009462AE = {
 			isa = PBXGroup;
 			children = (
+				042F07A31B5EACAB0046FD8E /* mapapi.bundle */,
+				042F07A11B5EABD70046FD8E /* Security.framework */,
+				042F079F1B5EABCC0046FD8E /* CoreGraphics.framework */,
+				042F079D1B5EABC10046FD8E /* SystemConfiguration.framework */,
+				042F079B1B5EABB10046FD8E /* OpenGLES.framework */,
+				042F07991B5EABA20046FD8E /* QuartzCore.framework */,
+				042F07971B5EAB9B0046FD8E /* CoreLocation.framework */,
+				042F07951B5EAAAA0046FD8E /* BaiduMapAPI.framework */,
 				9433BE3F1B5DE1EC009462AE /* EggerKer */,
 				9433BE591B5DE1ED009462AE /* EggerKerTests */,
 				9433BE3E1B5DE1EC009462AE /* Products */,
@@ -138,7 +197,7 @@
 				9433BE6C1B5DE340009462AE /* Business */,
 				9433BE661B5DE264009462AE /* Main */,
 				9433BE441B5DE1EC009462AE /* AppDelegate.h */,
-				9433BE451B5DE1EC009462AE /* AppDelegate.m */,
+				9433BE451B5DE1EC009462AE /* AppDelegate.mm */,
 				9433BE471B5DE1EC009462AE /* ViewController.h */,
 				9433BE481B5DE1EC009462AE /* ViewController.m */,
 				9433BE4A1B5DE1EC009462AE /* Main.storyboard */,
@@ -205,6 +264,8 @@
 		9433BE6D1B5DE340009462AE /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				042F07A51B5EB51B0046FD8E /* BasicMapAnnotation.h */,
+				042F07A61B5EB51B0046FD8E /* BasicMapAnnotation.m */,
 				9433BF3D1B5DE524009462AE /* MapViewController.h */,
 				9433BF3E1B5DE524009462AE /* MapViewController.m */,
 			);
@@ -248,6 +309,7 @@
 		9433BE721B5DE346009462AE /* PersonJob */ = {
 			isa = PBXGroup;
 			children = (
+				042F07791B5E99D80046FD8E /* login */,
 				9433BF541B5DE953009462AE /* pushjob */,
 				9433BF531B5DE921009462AE /* job */,
 				9433BF521B5DE8D6009462AE /* myself */,
@@ -269,6 +331,12 @@
 		9433BF531B5DE921009462AE /* job */ = {
 			isa = PBXGroup;
 			children = (
+				042F078D1B5EA7400046FD8E /* JobListCell.h */,
+				042F078E1B5EA7400046FD8E /* JobListCell.m */,
+				042F078F1B5EA7400046FD8E /* JobListCell.xib */,
+				042F07901B5EA7400046FD8E /* JobListView.h */,
+				042F07911B5EA7400046FD8E /* JobListView.m */,
+				042F077F1B5E9A5D0046FD8E /* JobViewController.xib */,
 				9433BF581B5DE995009462AE /* JobViewController.h */,
 				9433BF591B5DE995009462AE /* JobViewController.m */,
 			);
@@ -400,9 +468,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042F077E1B5E99E80046FD8E /* LoginViewController.xib in Resources */,
 				9433BE4C1B5DE1EC009462AE /* Main.storyboard in Resources */,
 				9433BE511B5DE1EC009462AE /* LaunchScreen.xib in Resources */,
 				9433BE6B1B5DE29B009462AE /* TH_MomeViewController.xib in Resources */,
+				042F07801B5E9A5D0046FD8E /* JobViewController.xib in Resources */,
+				042F07A41B5EACAB0046FD8E /* mapapi.bundle in Resources */,
+				042F07931B5EA7400046FD8E /* JobListCell.xib in Resources */,
 				9433BE4E1B5DE1EC009462AE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,16 +498,20 @@
 				9433BF671B5DEB97009462AE /* ZXImagePickerVC.m in Sources */,
 				9433BF6D1B5DEBA0009462AE /* ZXButton.m in Sources */,
 				9433BE491B5DE1EC009462AE /* ViewController.m in Sources */,
+				042F07921B5EA7400046FD8E /* JobListCell.m in Sources */,
 				9433BF771B5DEBA8009462AE /* UILabel+Extension.m in Sources */,
-				9433BE461B5DE1EC009462AE /* AppDelegate.m in Sources */,
+				9433BE461B5DE1EC009462AE /* AppDelegate.mm in Sources */,
 				9433BF761B5DEBA8009462AE /* UIBarButtonItem+Extension.m in Sources */,
 				9433BF3F1B5DE524009462AE /* MapViewController.m in Sources */,
 				9433BF4B1B5DE793009462AE /* SearchViewController.m in Sources */,
 				9433BF781B5DEBA8009462AE /* UIView+Extension.m in Sources */,
+				042F077D1B5E99E80046FD8E /* LoginViewController.m in Sources */,
+				042F07941B5EA7400046FD8E /* JobListView.m in Sources */,
 				9433BF661B5DEB97009462AE /* ZXCustomNavigation.m in Sources */,
 				9433BF6E1B5DEBA0009462AE /* ZXLabel.m in Sources */,
 				9433BE6A1B5DE29B009462AE /* TH_MomeViewController.m in Sources */,
 				9433BE431B5DE1EC009462AE /* main.m in Sources */,
+				042F07A71B5EB51B0046FD8E /* BasicMapAnnotation.m in Sources */,
 				9433BF601B5DEA6F009462AE /* PushJobViewController.m in Sources */,
 				9433BF5A1B5DE995009462AE /* JobViewController.m in Sources */,
 				9433BF4E1B5DE7FB009462AE /* TH_PersonViewController.m in Sources */,
@@ -568,8 +644,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EggerKer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -578,8 +660,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EggerKer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -637,6 +725,7 @@
 				9433BE621B5DE1ED009462AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9433BE631B5DE1ED009462AE /* Build configuration list for PBXNativeTarget "EggerKerTests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +734,7 @@
 				9433BE651B5DE1ED009462AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
